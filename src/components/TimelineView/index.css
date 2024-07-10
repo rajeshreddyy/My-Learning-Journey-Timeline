@@ -1,0 +1,30 @@
+/* Write your CSS here */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.chrono-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 20vh;
+  flex-grow: 1;
+}
+
+.chrono-item {
+  width: 2000px;
+  height: 100vh;
+}
+
+.timeline-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
